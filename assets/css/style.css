@@ -1,0 +1,99 @@
+@import url(https://fonts.googleapis.com/css?family=Abril+Fatface|Roboto:400,400italic,500,500italic);
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    width: 100%;
+    height: 100%;
+}
+
+span {
+    font-size: 70px;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    background: #0f0e17;
+    color: #fff;
+    font-family: "Roboto", sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+header {
+    display: flex;
+}
+
+header:hover {
+    animation: goyang 0.4s;
+}
+
+h1 {
+    position: relative;
+    font-family: sans-serif;
+    font-weight: normal;
+    font-size: 1.5em;
+    text-align: center;
+    cursor: pointer;
+    color: rgba(255, 255, 255, 0.95);
+    text-shadow: 1px 1px rgba(246, 0, 153, 0.8), -1px -1px rgba(15, 210, 255, 0.8),
+        -1px 0px rgba(255, 210, 0, 1);
+}
+
+h1:hover {
+    animation: goyang 0.2s 2;
+    text-shadow: 30px 13px rgba(246, 0, 153, 0.8),
+        -38px -4px rgba(15, 210, 255, 0.8), -2px -4px rgba(255, 210, 0, 1);
+}
+
+@keyframes goyang {
+    0% {
+        -webkit-transform: skewX(24deg);
+    }
+
+    10% {
+        -webkit-transform: skewX(-8deg);
+    }
+
+    20% {
+        -webkit-transform: skewX(55deg);
+    }
+
+    30% {
+        -webkit-transform: skewX(-90deg);
+    }
+
+    40% {
+        -webkit-transform: skewX(29deg);
+    }
+
+    50% {
+        -webkit-transform: skewX(-90deg);
+    }
+
+    60% {
+        -webkit-transform: skewX(3deg);
+    }
+
+    70% {
+        -webkit-transform: skewX(-2deg);
+    }
+
+    80% {
+        -webkit-transform: skewX(1deg);
+    }
+
+    90% {
+        -webkit-transform: skewX(10deg);
+    }
+
+    100% {
+        -webkit-transform: skewX(0deg);
+    }
+}
